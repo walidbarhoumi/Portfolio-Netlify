@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+hi<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -152,16 +152,18 @@
     <nav class="fixed top-0 w-full bg-dark-bg/90 backdrop-blur-md border-b border-dark-border z-50">
         <div class="container mx-auto px-6 py-3">
             <div class="flex justify-between items-center">
-                <div class="text-2xl font-bold gradient-text">Aurora</div>
+                <div class="text-2xl font-bold gradient-text">Walid Barhoumi</div>
                 <ul class="hidden md:flex space-x-8">
                     <li><a href="#home" class="hover:text-aurora-green transition">Home</a></li>
                     <li><a href="#about" class="hover:text-aurora-green transition">About</a></li>
                     <li><a href="#experience" class="hover:text-aurora-green transition">Experience</a></li>
+                    <li><a href="#education" class="hover:text-aurora-green transition">Education</a></li>
                     <li><a href="#skills" class="hover:text-aurora-green transition">Skills</a></li>
+                    <li><a href="#languages" class="hover:text-aurora-green transition">Languages</a></li>
+                    <li><a href="#certifications" class="hover:text-aurora-green transition">Certifications</a></li>
                     <li><a href="#services" class="hover:text-aurora-green transition">Services</a></li>
                     <li><a href="#portfolio" class="hover:text-aurora-green transition">Portfolio</a></li>
                     <li><a href="#testimonials" class="hover:text-aurora-green transition">Testimonials</a></li>
-                    <li><a href="#blog" class="hover:text-aurora-green transition">Blog</a></li>
                     <li><a href="#contact" class="hover:text-aurora-green transition">Contact</a></li>
                 </ul>
                 <!-- Mobile menu button -->
@@ -174,7 +176,10 @@
                 <a href="#home" class="block py-2 hover:text-aurora-green">Home</a>
                 <a href="#about" class="block py-2 hover:text-aurora-green">About</a>
                 <a href="#experience" class="block py-2 hover:text-aurora-green">Experience</a>
+                <a href="#education" class="block py-2 hover:text-aurora-green">Education</a>
                 <a href="#skills" class="block py-2 hover:text-aurora-green">Skills</a>
+                <a href="#languages" class="block py-2 hover:text-aurora-green">Languages</a>
+                <a href="#certifications" class="block py-2 hover:text-aurora-green">Certifications</a>
                 <a href="#services" class="block py-2 hover:text-aurora-green">Services</a>
                 <a href="#portfolio" class="block py-2 hover:text-aurora-green">Portfolio</a>
                 <a href="#testimonials" class="block py-2 hover:text-aurora-green">Testimonials</a>
@@ -185,80 +190,100 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="min-h-screen flex items-center justify-center pt-20 relative">
-        <div class="container mx-auto px-6 text-center z-10">
-            <div class="animate-slide-up">
+<section id="home" class="min-h-screen flex items-center justify-center pt-20 relative">
+    <div class="container mx-auto px-6 z-10">
+        <div class="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-16 animate-slide-up max-w-6xl mx-auto">
+            <!-- Image -->
+            <div class="flex-shrink-0">
+                <div class="w-80 h-[26rem] lg:w-96 lg:h-[36rem] bg-gradient-to-br from-aurora-purple via-aurora-pink to-aurora-green p-1 shadow-2xl rounded-lg">
+                    <div class="w-full h-full bg-dark-bg flex items-center justify-center overflow-hidden rounded-lg">
+                        <img src="walid1.png" alt="Walid Barhoumi" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+            <!-- Text -->
+            <div class="text-center lg:text-left flex-1">
                 <h1 class="text-5xl md:text-7xl font-bold mb-4">
-                    Hello, I'm <span class="gradient-text">Alex Aurora</span>
+                    Hello, I'm <span class="gradient-text">Walid</span>
                 </h1>
-                <p class="text-xl md:text-2xl text-gray-400 mb-8">Full-Stack Developer | UI/UX Designer | Tech Innovator</p>
-                <p class="text-lg text-gray-500 max-w-2xl mx-auto mb-12">
-                    Crafting digital experiences that illuminate the web like the Northern Lights.
-                    Passionate about cutting-edge technology and beautiful, functional design.
+                <p class="text-xl md:text-2xl text-gray-400 mb-8">Full Stack Developer / M.Sc. Computer Science Student</p>
+                <p class="text-lg text-gray-500 max-w-2xl mb-12">
+                    Final-year Engineering student at ESPRIT specializing in Web and Internet Technologies, currently pursuing M.Sc. Computer Science at Philipps-Universität Marburg. Passionate about AI and web development with strong problem-solving skills and international academic experience.
                 </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                     <a href="#portfolio" class="px-8 py-3 bg-gradient-to-r from-aurora-green to-aurora-blue rounded-full text-dark-bg font-semibold hover:shadow-lg hover:shadow-aurora-green/50 transition transform hover:scale-105">
                         View My Work
                     </a>
-                    <a href="resume.pdf" class="px-8 py-3 border-2 border-aurora-green rounded-full hover:bg-aurora-green hover:text-dark-bg transition transform hover:scale-105">
-                        Download CV
+                    <a href="Walid-Barhoumi-Resume.pdf" target="_blank" class="px-8 py-3 border-2 border-aurora-green rounded-full hover:bg-aurora-green hover:text-dark-bg transition transform hover:scale-105">
+                        View Resume
+                    </a>
+                    <a href="https://linkedin.com/in/walid-barhoumi" target="_blank" class="px-8 py-3 bg-gradient-to-r from-aurora-blue to-aurora-purple rounded-full text-dark-bg font-semibold hover:shadow-lg hover:shadow-aurora-blue/50 transition transform hover:scale-105">
+                        Let's Connect
                     </a>
                 </div>
-                <div class="mt-12 flex justify-center space-x-6">
-                    <a href="#" class="text-2xl hover:text-aurora-green transition"><i class="fab fa-github"></i></a>
-                    <a href="#" class="text-2xl hover:text-aurora-blue transition"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="text-2xl hover:text-aurora-purple transition"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-2xl hover:text-aurora-pink transition"><i class="fab fa-instagram"></i></a>
+                <div class="mt-12 flex justify-center lg:justify-start space-x-6 lg:ml-56">
+                    <a href="https://github.com/walidbarhoumi" target="_blank" class="text-2xl hover:text-aurora-green transition"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/walid-barhoumi" target="_blank" class="text-2xl hover:text-aurora-blue transition"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
-        <!-- Animated particles -->
-        <div class="absolute inset-0 overflow-hidden pointer-events-none">
-            <div class="absolute w-2 h-2 bg-aurora-green rounded-full animate-float" style="top: 20%; left: 10%;"></div>
-            <div class="absolute w-2 h-2 bg-aurora-blue rounded-full animate-float" style="top: 60%; left: 80%; animation-delay: 1s;"></div>
-            <div class="absolute w-2 h-2 bg-aurora-purple rounded-full animate-float" style="top: 40%; left: 60%; animation-delay: 2s;"></div>
-            <div class="absolute w-2 h-2 bg-aurora-pink rounded-full animate-float" style="top: 80%; left: 30%; animation-delay: 3s;"></div>
-        </div>
-    </section>
+    </div>
+    <!-- Animated particles -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute w-2 h-2 bg-aurora-green rounded-full animate-float" style="top: 20%; left: 10%;"></div>
+        <div class="absolute w-2 h-2 bg-aurora-blue rounded-full animate-float" style="top: 60%; left: 80%; animation-delay: 1s;"></div>
+        <div class="absolute w-2 h-2 bg-aurora-purple rounded-full animate-float" style="top: 40%; left: 60%; animation-delay: 2s;"></div>
+        <div class="absolute w-2 h-2 bg-aurora-pink rounded-full animate-float" style="top: 80%; left: 30%; animation-delay: 3s;"></div>
+    </div>
+</section>
 
     <!-- About Section -->
     <section id="about" class="py-20 relative">
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold text-center mb-12 gradient-text">About Me</h2>
-            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-                <div class="space-y-6">
-                    <p class="text-gray-400 leading-relaxed">
-                        With over 7 years of experience in web development and design, I specialize in creating
-                        immersive digital experiences that captivate users and drive business growth.
-                    </p>
-                    <p class="text-gray-400 leading-relaxed">
-                        My journey began with a fascination for the intersection of art and technology. Today,
-                        I work with cutting-edge technologies to build scalable, performant applications that
-                        push the boundaries of what's possible on the web.
-                    </p>
-                    <div class="grid grid-cols-2 gap-4 pt-4">
-                        <div class="bg-dark-card p-4 rounded-lg border border-dark-border">
-                            <div class="text-3xl font-bold text-aurora-green">100+</div>
-                            <div class="text-sm text-gray-400">Projects Completed</div>
-                        </div>
-                        <div class="bg-dark-card p-4 rounded-lg border border-dark-border">
-                            <div class="text-3xl font-bold text-aurora-blue">50+</div>
-                            <div class="text-sm text-gray-400">Happy Clients</div>
-                        </div>
-                        <div class="bg-dark-card p-4 rounded-lg border border-dark-border">
-                            <div class="text-3xl font-bold text-aurora-purple">7+</div>
-                            <div class="text-sm text-gray-400">Years Experience</div>
-                        </div>
-                        <div class="bg-dark-card p-4 rounded-lg border border-dark-border">
-                            <div class="text-3xl font-bold text-aurora-pink">15+</div>
-                            <div class="text-sm text-gray-400">Awards Won</div>
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
+                    
+
+                    <!-- Summary Text -->
+                    <div class="flex-1 max-w-2xl text-center lg:text-left">
+                        <div class="space-y-6">
+                            <p class="text-gray-400 leading-relaxed text-lg">
+                                Final-year Engineering student at ESPRIT specializing in Web and Internet Technologies,
+                                currently pursuing M.Sc. Computer Science at Philipps-Universität Marburg.
+                            </p>
+                            <p class="text-gray-400 leading-relaxed text-lg">
+                                Passionate about AI and web development with strong problem-solving skills and
+                                international academic experience. I focus on building innovative solutions using
+                                modern technologies and frameworks.
+                            </p>
+                            <div class="grid grid-cols-2 gap-4 pt-6">
+                                <div class="bg-dark-card p-4 rounded-lg border border-dark-border text-center">
+                                    <div class="text-3xl font-bold text-aurora-green">7+</div>
+                                    <div class="text-sm text-gray-400">Projects Completed</div>
+                                </div>
+                                <div class="bg-dark-card p-4 rounded-lg border border-dark-border text-center">
+                                    <div class="text-3xl font-bold text-aurora-blue">20+</div>
+                                    <div class="text-sm text-gray-400">Successfully Delivered Features</div>
+                                </div>
+                                <div class="bg-dark-card p-4 rounded-lg border border-dark-border text-center">
+                                    <div class="text-3xl font-bold text-aurora-purple">4</div>
+                                    <div class="text-sm text-gray-400">Certifications</div>
+                                </div>
+                                <div class="bg-dark-card p-4 rounded-lg border border-dark-border text-center">
+                                    <div class="text-3xl font-bold text-aurora-pink">3</div>
+                                    <div class="text-sm text-gray-400">Internships</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="relative">
-                    <div class="w-80 h-80 mx-auto rounded-full bg-gradient-to-br from-aurora-green via-aurora-blue to-aurora-purple p-1">
-                        <div class="w-full h-full rounded-full bg-dark-bg flex items-center justify-center">
-                            <span class="text-6xl">👨‍💻</span>
+
+                    <!-- Circular Image -->
+                    <div class="flex-shrink-0">
+                        <div class="w-64 h-64 rounded-full bg-gradient-to-br from-aurora-purple via-aurora-pink to-aurora-green p-1 shadow-2xl">
+                            <div class="w-full h-full rounded-full bg-dark-bg flex items-center justify-center overflow-hidden">
+                                <img src="walid.png" alt="Walid Barhoumi" class="w-full h-full object-cover rounded-full">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -267,22 +292,343 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="py-20 bg-dark-card/30">
+<section id="experience" class="py-20 bg-dark-card/30 relative overflow-hidden">
+    <!-- Animated background elements -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none opacity-30">
+        <div class="absolute w-96 h-96 bg-aurora-green/20 rounded-full blur-3xl -top-48 -left-48 animate-pulse-slow"></div>
+        <div class="absolute w-96 h-96 bg-aurora-blue/20 rounded-full blur-3xl -bottom-48 -right-48 animate-pulse-slow" style="animation-delay: 2s;"></div>
+    </div>
+
+    <div class="container mx-auto px-6 relative z-10">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Professional Journey</h2>
+            <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+                My path through technology, innovation, and continuous learning
+            </p>
+        </div>
+
+        <div class="max-w-5xl mx-auto">
+            <!-- Timeline Line -->
+            <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-aurora-purple via-aurora-blue to-aurora-green opacity-30"></div>
+
+            <!-- Timeline Items -->
+            <div class="space-y-12">
+                
+                <!-- 2025 - SPIRAW Internship -->
+                <div class="relative">
+                    <div class="md:flex items-center">
+                        <!-- Left side (even items) -->
+                        <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                            <div class="bg-gradient-to-br from-aurora-pink/10 to-aurora-purple/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-pink/30 card-hover shadow-lg">
+                                <div class="flex items-start justify-between mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-pink to-aurora-purple flex items-center justify-center shadow-lg">
+                                            <i class="fas fa-seedling text-white text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <span class="inline-block px-3 py-1 bg-aurora-pink/20 text-aurora-pink text-xs font-semibold rounded-full mb-1">
+                                                May 2025 - July 2025
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="text-2xl font-bold mb-2 text-white">Software Engineering Intern</h3>
+                                <p class="text-aurora-pink font-semibold mb-1">SPIRAW Platform</p>
+                                <p class="text-gray-300 text-sm mb-4">
+                                    <i class="fas fa-map-marker-alt text-aurora-pink mr-2"></i>
+                                    ACTIA Group, Ariana, Tunisia
+                                </p>
+                                
+                                <p class="text-gray-300 mb-4 leading-relaxed">
+                                    Developed automated spirulina cultivation platform integrating IoT, AI/ML, and full-stack technologies for production optimization.
+                                </p>
+                                
+                                <div class="space-y-2 mb-4">
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-pink mt-1 flex-shrink-0"></i>
+                                        <span>Built IoT platform with Odoo ERP integration for inventory and CRM automation</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-pink mt-1 flex-shrink-0"></i>
+                                        <span>Developed Spring Boot microservices with ML models for predictive analytics</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-pink mt-1 flex-shrink-0"></i>
+                                        <span>Created React dashboards with real-time KPI visualization</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-pink mt-1 flex-shrink-0"></i>
+                                        <span>Implemented computer vision and time-series forecasting models</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-aurora-pink/20 text-aurora-pink rounded-full text-xs font-medium">Spring Boot</span>
+                                    <span class="px-3 py-1 bg-aurora-pink/20 text-aurora-pink rounded-full text-xs font-medium">React</span>
+                                    <span class="px-3 py-1 bg-aurora-pink/20 text-aurora-pink rounded-full text-xs font-medium">ML/AI</span>
+                                    <span class="px-3 py-1 bg-aurora-pink/20 text-aurora-pink rounded-full text-xs font-medium">IoT</span>
+                                    <span class="px-3 py-1 bg-aurora-pink/20 text-aurora-pink rounded-full text-xs font-medium">Odoo</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Center dot -->
+                        <div class="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-aurora-pink rounded-full border-4 border-dark-bg shadow-lg z-10 animate-pulse"></div>
+                        
+                        <!-- Right side spacer -->
+                        <div class="md:w-1/2"></div>
+                    </div>
+                </div>
+
+                <!-- 2025 - University Project -->
+                <div class="relative">
+                    <div class="md:flex items-center">
+                        <!-- Left side spacer -->
+                        <div class="md:w-1/2"></div>
+                        
+                        <!-- Center dot -->
+                        <div class="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-aurora-blue rounded-full border-4 border-dark-bg shadow-lg z-10 animate-pulse"></div>
+                        
+                        <!-- Right side (odd items) -->
+                        <div class="md:w-1/2 md:pl-12">
+                            <div class="bg-gradient-to-br from-aurora-blue/10 to-aurora-green/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-blue/30 card-hover shadow-lg">
+                                <div class="flex items-start justify-between mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-blue to-aurora-green flex items-center justify-center shadow-lg">
+                                            <i class="fas fa-exchange-alt text-white text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <span class="inline-block px-3 py-1 bg-aurora-blue/20 text-aurora-blue text-xs font-semibold rounded-full mb-1">
+                                                Jan 2025 - June 2025
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="text-2xl font-bold mb-2 text-white">Full Stack Developer</h3>
+                                <p class="text-aurora-blue font-semibold mb-1">University Project</p>
+                                <p class="text-gray-300 text-sm mb-4">
+                                    <i class="fas fa-map-marker-alt text-aurora-blue mr-2"></i>
+                                    ESPRIT, Ariana, Tunisia
+                                </p>
+                                
+                                <p class="text-gray-300 mb-4 leading-relaxed">
+                                    Developed full-stack skill exchange platform with intelligent matching and real-time interactions.
+                                </p>
+                                
+                                <div class="space-y-2 mb-4">
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-blue mt-1 flex-shrink-0"></i>
+                                        <span>Built responsive React frontend with Redux and RESTful APIs</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-blue mt-1 flex-shrink-0"></i>
+                                        <span>Implemented CRUD operations with MongoDB and Mongoose</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-blue mt-1 flex-shrink-0"></i>
+                                        <span>Integrated Socket.io for real-time notifications and messaging</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-blue mt-1 flex-shrink-0"></i>
+                                        <span>Developed AI-powered matchmaking algorithm for skill pairing</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-aurora-blue/20 text-aurora-blue rounded-full text-xs font-medium">React</span>
+                                    <span class="px-3 py-1 bg-aurora-blue/20 text-aurora-blue rounded-full text-xs font-medium">Express.js</span>
+                                    <span class="px-3 py-1 bg-aurora-blue/20 text-aurora-blue rounded-full text-xs font-medium">MongoDB</span>
+                                    <span class="px-3 py-1 bg-aurora-blue/20 text-aurora-blue rounded-full text-xs font-medium">Socket.io</span>
+                                    <span class="px-3 py-1 bg-aurora-blue/20 text-aurora-blue rounded-full text-xs font-medium">JWT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2024 - GEISER Internship -->
+                <div class="relative">
+                    <div class="md:flex items-center">
+                        <!-- Left side (even items) -->
+                        <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                            <div class="bg-gradient-to-br from-aurora-green/10 to-aurora-blue/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-green/30 card-hover shadow-lg">
+                                <div class="flex items-start justify-between mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center shadow-lg">
+                                            <i class="fas fa-truck text-white text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <span class="inline-block px-3 py-1 bg-aurora-green/20 text-aurora-green text-xs font-semibold rounded-full mb-1">
+                                                June 2024 - Aug 2024
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="text-2xl font-bold mb-2 text-white">Full-Stack Developer Intern</h3>
+                                <p class="text-aurora-green font-semibold mb-1">Logistics Platform Development</p>
+                                <p class="text-gray-300 text-sm mb-4">
+                                    <i class="fas fa-map-marker-alt text-aurora-green mr-2"></i>
+                                    GEISER, Ech-Charguia, Tunis, Tunisia
+                                </p>
+                                
+                                <p class="text-gray-300 mb-4 leading-relaxed">
+                                    Developed web application for logistics company search with AI-powered intelligent matching capabilities.
+                                </p>
+                                
+                                <div class="space-y-2 mb-4">
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-green mt-1 flex-shrink-0"></i>
+                                        <span>Built full-stack application using PHP/Symfony with MVC architecture</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-green mt-1 flex-shrink-0"></i>
+                                        <span>Implemented secure authentication with role-based access control</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-green mt-1 flex-shrink-0"></i>
+                                        <span>Integrated AI-powered search engine with ML algorithms</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-green mt-1 flex-shrink-0"></i>
+                                        <span>Developed RESTful APIs and geolocation services integration</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-aurora-green/20 text-aurora-green rounded-full text-xs font-medium">PHP</span>
+                                    <span class="px-3 py-1 bg-aurora-green/20 text-aurora-green rounded-full text-xs font-medium">Symfony</span>
+                                    <span class="px-3 py-1 bg-aurora-green/20 text-aurora-green rounded-full text-xs font-medium">MySQL</span>
+                                    <span class="px-3 py-1 bg-aurora-green/20 text-aurora-green rounded-full text-xs font-medium">ML</span>
+                                    <span class="px-3 py-1 bg-aurora-green/20 text-aurora-green rounded-full text-xs font-medium">Bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Center dot -->
+                        <div class="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-aurora-green rounded-full border-4 border-dark-bg shadow-lg z-10 animate-pulse"></div>
+                        
+                        <!-- Right side spacer -->
+                        <div class="md:w-1/2"></div>
+                    </div>
+                </div>
+
+                <!-- 2021 - BNA Internship -->
+                <div class="relative">
+                    <div class="md:flex items-center">
+                        <!-- Left side spacer -->
+                        <div class="md:w-1/2"></div>
+                        
+                        <!-- Center dot -->
+                        <div class="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-aurora-purple rounded-full border-4 border-dark-bg shadow-lg z-10 animate-pulse"></div>
+                        
+                        <!-- Right side (odd items) -->
+                        <div class="md:w-1/2 md:pl-12">
+                            <div class="bg-gradient-to-br from-aurora-purple/10 to-aurora-pink/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-purple/30 card-hover shadow-lg">
+                                <div class="flex items-start justify-between mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center shadow-lg">
+                                            <i class="fas fa-university text-white text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <span class="inline-block px-3 py-1 bg-aurora-purple/20 text-aurora-purple text-xs font-semibold rounded-full mb-1">
+                                                July 2021 - Aug 2021
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="text-2xl font-bold mb-2 text-white">Observation Intern</h3>
+                                <p class="text-aurora-purple font-semibold mb-1">Banking Technology Team</p>
+                                <p class="text-gray-300 text-sm mb-4">
+                                    <i class="fas fa-map-marker-alt text-aurora-purple mr-2"></i>
+                                    BNA - Banque Nationale Agricole, Manouba, Tunisia
+                                </p>
+                                
+                                <p class="text-gray-300 mb-4 leading-relaxed">
+                                    Gained exposure to professional banking environment and digital infrastructure.
+                                </p>
+                                
+                                <div class="space-y-2 mb-4">
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-purple mt-1 flex-shrink-0"></i>
+                                        <span>Assisted technical team with operational tasks and banking workflows</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-purple mt-1 flex-shrink-0"></i>
+                                        <span>Collaborated on internal processes and digital tools optimization</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-purple mt-1 flex-shrink-0"></i>
+                                        <span>Participated in professional meetings and project follow-ups</span>
+                                    </div>
+                                    <div class="flex items-start gap-2 text-gray-300 text-sm">
+                                        <i class="fas fa-check-circle text-aurora-purple mt-1 flex-shrink-0"></i>
+                                        <span>Developed teamwork and professional communication skills</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-aurora-purple/20 text-aurora-purple rounded-full text-xs font-medium">Banking Tech</span>
+                                    <span class="px-3 py-1 bg-aurora-purple/20 text-aurora-purple rounded-full text-xs font-medium">Team Collaboration</span>
+                                    <span class="px-3 py-1 bg-aurora-purple/20 text-aurora-purple rounded-full text-xs font-medium">Professional Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Additional styles for enhanced experience section */
+.card-hover {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 255, 170, 0.15);
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+}
+
+/* Mobile timeline adjustments */
+@media (max-width: 768px) {
+    #experience .md\:w-1\/2 {
+        width: 100%;
+        padding: 0 !important;
+    }
+}
+</style>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-dark-card/30">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Work Experience</h2>
+            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Education</h2>
             <div class="max-w-4xl mx-auto space-y-8">
                 <div class="relative pl-8 border-l-2 border-aurora-green">
                     <div class="absolute -left-2 top-0 w-4 h-4 bg-aurora-green rounded-full"></div>
                     <div class="bg-dark-card p-6 rounded-lg card-hover">
                         <div class="flex justify-between items-start mb-2">
-                            <h3 class="text-xl font-semibold text-aurora-green">Senior Full-Stack Developer</h3>
-                            <span class="text-sm text-gray-400">2021 - Present</span>
+                            <h3 class="text-xl font-semibold text-aurora-green">M.Sc. Computer Science (Exchange)</h3>
+                            <span class="text-sm text-gray-400">Sept 2025 - Present</span>
                         </div>
-                        <p class="text-gray-300 font-medium mb-2">Tech Innovations Inc.</p>
-                        <p class="text-gray-400">
-                            Lead development of enterprise-scale web applications, mentor junior developers,
-                            and architect cloud-native solutions using modern tech stacks.
-                        </p>
+                        <p class="text-gray-300 font-medium mb-2">Philipps-Universität Marburg, Marburg, Germany</p>
                     </div>
                 </div>
 
@@ -290,14 +636,10 @@
                     <div class="absolute -left-2 top-0 w-4 h-4 bg-aurora-blue rounded-full"></div>
                     <div class="bg-dark-card p-6 rounded-lg card-hover">
                         <div class="flex justify-between items-start mb-2">
-                            <h3 class="text-xl font-semibold text-aurora-blue">Full-Stack Developer</h3>
-                            <span class="text-sm text-gray-400">2019 - 2021</span>
+                            <h3 class="text-xl font-semibold text-aurora-blue">Engineer's degree, Web & Internet Tech.</h3>
+                            <span class="text-sm text-gray-400">Sept 2022 - Present</span>
                         </div>
-                        <p class="text-gray-300 font-medium mb-2">Digital Solutions Agency</p>
-                        <p class="text-gray-400">
-                            Developed custom web applications for various clients, implemented responsive designs,
-                            and optimized application performance.
-                        </p>
+                        <p class="text-gray-300 font-medium mb-2">ESPRIT, Ariana, Tunisia</p>
                     </div>
                 </div>
 
@@ -305,14 +647,10 @@
                     <div class="absolute -left-2 top-0 w-4 h-4 bg-aurora-purple rounded-full"></div>
                     <div class="bg-dark-card p-6 rounded-lg card-hover">
                         <div class="flex justify-between items-start mb-2">
-                            <h3 class="text-xl font-semibold text-aurora-purple">Frontend Developer</h3>
-                            <span class="text-sm text-gray-400">2017 - 2019</span>
+                            <h3 class="text-xl font-semibold text-aurora-purple">Mathematics Baccalaureate</h3>
+                            <span class="text-sm text-gray-400">July 2021</span>
                         </div>
-                        <p class="text-gray-300 font-medium mb-2">Creative Web Studio</p>
-                        <p class="text-gray-400">
-                            Created interactive user interfaces, implemented design mockups, and ensured
-                            cross-browser compatibility for client projects.
-                        </p>
+                        <p class="text-gray-300 font-medium mb-2">Assad Ibn El Fourat High School, Manouba, Tunisia</p>
                     </div>
                 </div>
             </div>
@@ -320,99 +658,440 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-20">
+<section id="skills" class="py-20 relative overflow-hidden">
+    <!-- Animated background elements -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none opacity-20">
+        <div class="absolute w-96 h-96 bg-aurora-purple/30 rounded-full blur-3xl top-0 right-0 animate-pulse-slow"></div>
+        <div class="absolute w-96 h-96 bg-aurora-green/30 rounded-full blur-3xl bottom-0 left-0 animate-pulse-slow" style="animation-delay: 3s;"></div>
+    </div>
+
+    <div class="container mx-auto px-6 relative z-10">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Skills & Expertise</h2>
+            <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+                A comprehensive toolkit of technologies and competencies I've mastered
+            </p>
+        </div>
+
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- AI & Machine Learning -->
+                <div class="bg-gradient-to-br from-aurora-green/10 to-aurora-blue/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-green/30 card-hover">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center shadow-lg">
+                            <i class="fas fa-brain text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">AI & Machine Learning</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">TensorFlow</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">PyTorch</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">OpenCV</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">scikit-learn</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">OpenAI API</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Hugging Face</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">LangChain</span>
+                    </div>
+                </div>
+
+                <!-- Frontend Technologies -->
+                <div class="bg-gradient-to-br from-aurora-blue/10 to-aurora-purple/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-blue/30 card-hover">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center shadow-lg">
+                            <i class="fas fa-palette text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Frontend Technologies</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">HTML</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">CSS</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">JavaScript</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">TypeScript</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">Angular</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">React</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">Bootstrap</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">Flutter</span>
+                    </div>
+                </div>
+
+                <!-- Backend Technologies -->
+                <div class="bg-gradient-to-br from-aurora-purple/10 to-aurora-pink/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-purple/30 card-hover">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center shadow-lg">
+                            <i class="fas fa-server text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Backend Technologies</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">Node.js</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">Express.js</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">Java</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">Spring Boot</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">.NET</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">PHP</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">Symfony</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">FastAPI</span>
+                    </div>
+                </div>
+
+                <!-- Programming Languages -->
+                <div class="bg-gradient-to-br from-aurora-pink/10 to-aurora-green/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-pink/30 card-hover">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-pink to-aurora-green flex items-center justify-center shadow-lg">
+                            <i class="fas fa-code text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Programming Languages</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">Python</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">Java</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">JavaScript</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">TypeScript</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">C</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">C++</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">PHP</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">Dart</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="bg-gradient-to-br from-aurora-green/10 to-aurora-purple/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-green/30 card-hover">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-green to-aurora-purple flex items-center justify-center shadow-lg">
+                            <i class="fas fa-database text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Databases</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">MongoDB</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">MySQL</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">SQL</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">PostgreSQL</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Odoo</span>
+                    </div>
+                </div>
+
+                <!-- DevOps & Cloud -->
+                <div class="bg-gradient-to-br from-aurora-blue/10 to-aurora-pink/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-blue/30 card-hover">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-blue to-aurora-pink flex items-center justify-center shadow-lg">
+                            <i class="fas fa-cloud text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">DevOps & Cloud</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">GitHub</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">Git</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">Docker</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">Kubernetes</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">AWS</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">Jenkins</span>
+                        <span class="px-3 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-lg text-sm font-medium border border-aurora-blue/30">CI/CD</span>
+                    </div>
+                </div>
+
+                <!-- Data Visualization & Analytics -->
+                <div class="bg-gradient-to-br from-aurora-purple/10 to-aurora-green/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-purple/30 card-hover">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-purple to-aurora-green flex items-center justify-center shadow-lg">
+                            <i class="fas fa-chart-bar text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Data Visualization</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">Chart.js</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">D3.js</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">GA4</span>
+                        <span class="px-3 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-lg text-sm font-medium border border-aurora-purple/30">Google Tag Manager</span>
+                    </div>
+                </div>
+
+                <!-- Additional Tools -->
+                <div class="bg-gradient-to-br from-aurora-pink/10 to-aurora-blue/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-pink/30 card-hover">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-pink to-aurora-blue flex items-center justify-center shadow-lg">
+                            <i class="fas fa-tools text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Additional Tools</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">n8n</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">Kafka</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">Socket.io</span>
+                        <span class="px-3 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-lg text-sm font-medium border border-aurora-pink/30">JavaFX</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="bg-gradient-to-br from-aurora-green/10 to-aurora-pink/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-green/30 card-hover lg:col-span-1">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-aurora-green to-aurora-pink flex items-center justify-center shadow-lg">
+                            <i class="fas fa-users text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Soft Skills</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Emotional Intelligence</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Teamwork</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Communication</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Critical Thinking</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Adaptability</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Leadership</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Social Intelligence</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Problem Solving</span>
+                        <span class="px-3 py-1.5 bg-aurora-green/20 text-aurora-green rounded-lg text-sm font-medium border border-aurora-green/30">Time Management</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Enhanced card hover effects for skills section */
+.card-hover {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+
+/* Skill tag hover effect */
+.card-hover span {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover span {
+    transform: scale(1.05);
+}
+</style>
+
+<!-- Languages Section -->
+<section id="languages" class="py-20 bg-dark-card/30 relative overflow-hidden">
+    <!-- Animated background elements -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none opacity-20">
+        <div class="absolute w-96 h-96 bg-aurora-blue/30 rounded-full blur-3xl top-0 left-0 animate-pulse-slow"></div>
+        <div class="absolute w-96 h-96 bg-aurora-purple/30 rounded-full blur-3xl bottom-0 right-0 animate-pulse-slow" style="animation-delay: 2s;"></div>
+    </div>
+
+    <div class="container mx-auto px-6 relative z-10">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Languages</h2>
+            <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+                Fluent in multiple languages, bridging cultures and communication
+            </p>
+        </div>
+
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- English -->
+                <div class="bg-gradient-to-br from-aurora-green/10 to-aurora-blue/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-green/30 card-hover group relative overflow-hidden">
+                    <!-- Animated background gradient -->
+                    <div class="absolute inset-0 bg-gradient-to-br from-aurora-green/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    
+                    <div class="relative z-10">
+                        <!-- Flag Icon Circle -->
+                        <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl">🇬🇧</span>
+                        </div>
+                        
+                        <!-- Language Name -->
+                        <h3 class="text-2xl font-bold mb-2 text-center text-white">English</h3>
+                        
+                        <!-- Level Badge -->
+                        <div class="flex justify-center mb-3">
+                            <span class="px-4 py-1.5 bg-aurora-green/20 text-aurora-green rounded-full text-sm font-semibold border border-aurora-green/30">
+                                B2 Level
+                            </span>
+                        </div>
+                        
+                        <!-- Certification -->
+                        <p class="text-gray-300 text-center text-sm mb-4">
+                            <i class="fas fa-certificate text-aurora-green mr-2"></i>
+                            Cambridge FCE
+                        </p>
+                        
+                        <!-- Progress Bar -->
+                        <div class="w-full bg-dark-bg/50 rounded-full h-2 mb-2 overflow-hidden">
+                            <div class="h-full bg-gradient-to-r from-aurora-green to-aurora-blue rounded-full progress-bar" style="width: 80%; animation-delay: 0.2s;"></div>
+                        </div>
+                        <p class="text-gray-400 text-xs text-center">Upper Intermediate</p>
+                    </div>
+                </div>
+
+                <!-- French -->
+                <div class="bg-gradient-to-br from-aurora-blue/10 to-aurora-purple/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-blue/30 card-hover group relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-br from-aurora-blue/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    
+                    <div class="relative z-10">
+                        <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl">🇫🇷</span>
+                        </div>
+                        
+                        <h3 class="text-2xl font-bold mb-2 text-center text-white">French</h3>
+                        
+                        <div class="flex justify-center mb-3">
+                            <span class="px-4 py-1.5 bg-aurora-blue/20 text-aurora-blue rounded-full text-sm font-semibold border border-aurora-blue/30">
+                                B2 Level
+                            </span>
+                        </div>
+                        
+                        <p class="text-gray-300 text-center text-sm mb-4">
+                            <i class="fas fa-certificate text-aurora-blue mr-2"></i>
+                            DELF B2
+                        </p>
+                        
+                        <div class="w-full bg-dark-bg/50 rounded-full h-2 mb-2 overflow-hidden">
+                            <div class="h-full bg-gradient-to-r from-aurora-blue to-aurora-purple rounded-full progress-bar" style="width: 80%; animation-delay: 0.4s;"></div>
+                        </div>
+                        <p class="text-gray-400 text-xs text-center">Upper Intermediate</p>
+                    </div>
+                </div>
+
+                <!-- Arabic -->
+                <div class="bg-gradient-to-br from-aurora-purple/10 to-aurora-pink/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-purple/30 card-hover group relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-br from-aurora-purple/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    
+                    <div class="relative z-10">
+                        <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl">🇹🇳</span>
+                        </div>
+                        
+                        <h3 class="text-2xl font-bold mb-2 text-center text-white">Arabic</h3>
+                        
+                        <div class="flex justify-center mb-3">
+                            <span class="px-4 py-1.5 bg-aurora-purple/20 text-aurora-purple rounded-full text-sm font-semibold border border-aurora-purple/30">
+                                Native
+                            </span>
+                        </div>
+                        
+                        <p class="text-gray-300 text-center text-sm mb-4">
+                            <i class="fas fa-star text-aurora-purple mr-2"></i>
+                            Mother Tongue
+                        </p>
+                        
+                        <div class="w-full bg-dark-bg/50 rounded-full h-2 mb-2 overflow-hidden">
+                            <div class="h-full bg-gradient-to-r from-aurora-purple to-aurora-pink rounded-full progress-bar" style="width: 100%; animation-delay: 0.6s;"></div>
+                        </div>
+                        <p class="text-gray-400 text-xs text-center">Fluent</p>
+                    </div>
+                </div>
+
+                <!-- German -->
+                <div class="bg-gradient-to-br from-aurora-pink/10 to-aurora-green/10 backdrop-blur-sm p-6 rounded-2xl border border-aurora-pink/30 card-hover group relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-br from-aurora-pink/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    
+                    <div class="relative z-10">
+                        <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-pink to-aurora-green flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl">🇩🇪</span>
+                        </div>
+                        
+                        <h3 class="text-2xl font-bold mb-2 text-center text-white">German</h3>
+                        
+                        <div class="flex justify-center mb-3">
+                            <span class="px-4 py-1.5 bg-aurora-pink/20 text-aurora-pink rounded-full text-sm font-semibold border border-aurora-pink/30">
+                                A1-A2
+                            </span>
+                        </div>
+                        
+                        <p class="text-gray-300 text-center text-sm mb-4">
+                            <i class="fas fa-seedling text-aurora-pink mr-2"></i>
+                            Currently Learning
+                        </p>
+                        
+                        <div class="w-full bg-dark-bg/50 rounded-full h-2 mb-2 overflow-hidden">
+                            <div class="h-full bg-gradient-to-r from-aurora-pink to-aurora-green rounded-full progress-bar" style="width: 35%; animation-delay: 0.8s;"></div>
+                        </div>
+                        <p class="text-gray-400 text-xs text-center">Basic</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Enhanced card hover effects for languages section */
+.card-hover {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 20px 60px rgba(0, 255, 170, 0.2);
+}
+
+/* Progress bar animation */
+@keyframes progressAnimation {
+    0% { width: 0%; }
+}
+
+.progress-bar {
+    animation: progressAnimation 2s ease-out forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #languages .lg\:grid-cols-4 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #languages .lg\:grid-cols-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+</style>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Technical Skills</h2>
-            <div class="max-w-4xl mx-auto space-y-8">
-                <!-- Frontend Skills -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-4 text-aurora-green">Frontend Development</h3>
-                    <div class="space-y-4">
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span>React / Next.js</span>
-                                <span>95%</span>
-                            </div>
-                            <div class="w-full bg-dark-card rounded-full h-2">
-                                <div class="bg-gradient-to-r from-aurora-green to-aurora-blue h-2 rounded-full progress-bar" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span>TypeScript</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="w-full bg-dark-card rounded-full h-2">
-                                <div class="bg-gradient-to-r from-aurora-blue to-aurora-purple h-2 rounded-full progress-bar" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span>Tailwind CSS</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="w-full bg-dark-card rounded-full h-2">
-                                <div class="bg-gradient-to-r from-aurora-purple to-aurora-pink h-2 rounded-full progress-bar" style="width: 85%"></div>
-                            </div>
-                        </div>
-                    </div>
+            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Certifications</h2>
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+                <div class="bg-dark-card p-6 rounded-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-2 text-aurora-green">AWS Academy Graduate - Cloud Foundations</h3>
+                    <p class="text-gray-400 mb-1">Training Badge</p>
+                    <p class="text-gray-400 mb-2">Amazon Web Services (AWS)</p>
+                    <p class="text-sm text-gray-500 mb-4">Issued Nov 2025</p>
+                    <a href="AWS_Academy_Graduate___Cloud_Foundations___Training_Badge_Badge20251113-32-u8av3d.pdf" target="_blank" class="inline-block px-4 py-2 bg-aurora-green text-dark-bg rounded-lg hover:bg-aurora-green/80 transition">
+                        View Certificate
+                    </a>
                 </div>
 
-                <!-- Backend Skills -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-4 text-aurora-blue">Backend Development</h3>
-                    <div class="space-y-4">
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span>Node.js / Express</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="w-full bg-dark-card rounded-full h-2">
-                                <div class="bg-gradient-to-r from-aurora-green to-aurora-blue h-2 rounded-full progress-bar" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span>Python / Django</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="w-full bg-dark-card rounded-full h-2">
-                                <div class="bg-gradient-to-r from-aurora-blue to-aurora-purple h-2 rounded-full progress-bar" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span>PostgreSQL / MongoDB</span>
-                                <span>88%</span>
-                            </div>
-                            <div class="w-full bg-dark-card rounded-full h-2">
-                                <div class="bg-gradient-to-r from-aurora-purple to-aurora-pink h-2 rounded-full progress-bar" style="width: 88%"></div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="bg-dark-card p-6 rounded-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-2 text-aurora-blue">Hashgraph Developer</h3>
+                    <p class="text-gray-400 mb-1">Attendance</p>
+                    <p class="text-gray-400 mb-2">The Hashgraph Association</p>
+                    <p class="text-sm text-gray-500 mb-1">Issued Nov 2025</p>
+                    <p class="text-sm text-gray-500 mb-4">Credential ID: b4864f2c-7c0c-403c-aef4-175b5bc86849</p>
+                    <a href="Blockchain.pdf" target="_blank" class="inline-block px-4 py-2 bg-aurora-blue text-dark-bg rounded-lg hover:bg-aurora-blue/80 transition">
+                        View Certificate
+                    </a>
                 </div>
 
-                <!-- Tools & Others -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-4 text-aurora-purple">Tools & DevOps</h3>
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                        <div class="bg-dark-card p-4 rounded-lg text-center card-hover">
-                            <i class="fab fa-docker text-2xl mb-2 text-aurora-green"></i>
-                            <p>Docker</p>
-                        </div>
-                        <div class="bg-dark-card p-4 rounded-lg text-center card-hover">
-                            <i class="fab fa-aws text-2xl mb-2 text-aurora-blue"></i>
-                            <p>AWS</p>
-                        </div>
-                        <div class="bg-dark-card p-4 rounded-lg text-center card-hover">
-                            <i class="fab fa-git text-2xl mb-2 text-aurora-purple"></i>
-                            <p>Git</p>
-                        </div>
-                        <div class="bg-dark-card p-4 rounded-lg text-center card-hover">
-                            <i class="fas fa-infinity text-2xl mb-2 text-aurora-pink"></i>
-                            <p>CI/CD</p>
-                        </div>
-                    </div>
+                <div class="bg-dark-card p-6 rounded-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-2 text-aurora-purple">Cambridge English: First Certificate in English (FCE) – B2</h3>
+                    <p class="text-gray-400 mb-2">Cambridge English</p>
+                    <p class="text-sm text-gray-500 mb-4">Issued Jul 2025</p>
+                    <a href="Cambridge English First Certificate in English (FCE) – B2.pdf" target="_blank" class="inline-block px-4 py-2 bg-aurora-purple text-dark-bg rounded-lg hover:bg-aurora-purple/80 transition">
+                        View Certificate
+                    </a>
+                </div>
+
+                <div class="bg-dark-card p-6 rounded-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-2 text-aurora-pink">DELF B2 – Diplôme d’Études en Langue Française</h3>
+                    <p class="text-gray-400 mb-2">Ministère de l'Éducation nationale et de la Jeunesse</p>
+                    <p class="text-sm text-gray-500 mb-1">Issued Jun 2019</p>
+                    <p class="text-sm text-gray-500 mb-4">Credential ID: 216012-217531</p>
+                    <a href="DELF B2 – Diplôme d’Études en Langue Française.pdf" target="_blank" class="inline-block px-4 py-2 bg-aurora-pink text-dark-bg rounded-lg hover:bg-aurora-pink/80 transition">
+                        View Certificate
+                    </a>
                 </div>
             </div>
         </div>
@@ -427,19 +1106,19 @@
                     <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center">
                         <i class="fas fa-laptop-code text-2xl text-dark-bg"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Web Development</h3>
+                    <h3 class="text-xl font-semibold mb-3">Full-Stack Web Development</h3>
                     <p class="text-gray-400">
-                        Custom web applications built with modern frameworks and best practices for optimal performance.
+                        Custom web applications using React, Angular, Spring Boot, Symfony, and modern frameworks with AI integration.
                     </p>
                 </div>
 
                 <div class="bg-dark-card p-6 rounded-lg card-hover text-center">
                     <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center">
-                        <i class="fas fa-mobile-alt text-2xl text-dark-bg"></i>
+                        <i class="fas fa-cogs text-2xl text-dark-bg"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Mobile Development</h3>
+                    <h3 class="text-xl font-semibold mb-3">IoT & Automation Solutions</h3>
                     <p class="text-gray-400">
-                        Native and cross-platform mobile applications that deliver seamless user experiences.
+                        IoT-integrated platforms and automated systems with AI-driven analytics and real-time monitoring.
                     </p>
                 </div>
 
@@ -491,23 +1170,47 @@
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Portfolio</h2>
             <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+
                 <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
-                    <div class="h-48 bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center">
-                        <i class="fas fa-shopping-cart text-6xl text-dark-bg"></i>
-                    </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">E-Commerce Platform</h3>
-                        <p class="text-gray-400 mb-4">Full-stack e-commerce solution with payment integration</p>
+                        <div class="w-full h-48 rounded-lg mb-4 overflow-hidden flex items-center justify-center bg-white">
+                            <img src="geiser.png" alt="Geiser Web Application" class="w-4/5 h-4/5 object-contain">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Geiser Web Application</h3>
+                        <p class="text-gray-400 mb-4">Web application for logistics company search with AI-assisted matching</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-aurora-green/20 text-aurora-green rounded text-xs">PHP</span>
+                            <span class="px-2 py-1 bg-aurora-blue/20 text-aurora-blue rounded text-xs">Symfony</span>
+                            <span class="px-2 py-1 bg-aurora-purple/20 text-aurora-purple rounded text-xs">MySQL</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="https://www.geiser.com.tn/index.php" target="_blank" class="text-aurora-green hover:text-aurora-blue transition">
+                                <i class="fas fa-external-link-alt"></i> Live
+                            </a>
+                            <a href="#" target="_blank" class="text-aurora-green hover:text-aurora-blue transition">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
+                    <div class="p-6">
+                        <div class="w-full h-48 rounded-lg mb-4 overflow-hidden flex items-center justify-center bg-white">
+                            <img src="esprit.png" alt="Skill Exchange Platform" class="w-4/5 h-4/5 object-contain">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Skill Exchange Platform</h3>
+                        <p class="text-gray-400 mb-4">Full-stack platform for skill exchange with real-time notifications and AI recommendations</p>
                         <div class="flex flex-wrap gap-2 mb-4">
                             <span class="px-2 py-1 bg-aurora-green/20 text-aurora-green rounded text-xs">React</span>
-                            <span class="px-2 py-1 bg-aurora-blue/20 text-aurora-blue rounded text-xs">Node.js</span>
+                            <span class="px-2 py-1 bg-aurora-blue/20 text-aurora-blue rounded text-xs">Express.js</span>
                             <span class="px-2 py-1 bg-aurora-purple/20 text-aurora-purple rounded text-xs">MongoDB</span>
                         </div>
                         <div class="flex space-x-4">
-                            <a href="#" class="text-aurora-green hover:text-aurora-blue transition">
+                            <a href="#" target="_blank" class="text-aurora-green hover:text-aurora-blue transition">
                                 <i class="fas fa-external-link-alt"></i> Live
                             </a>
-                            <a href="#" class="text-aurora-green hover:text-aurora-blue transition">
+                            <a href="https://github.com/DahmaniInes/MindSpark-MERN" target="_blank" class="text-aurora-green hover:text-aurora-blue transition">
                                 <i class="fab fa-github"></i> Code
                             </a>
                         </div>
@@ -515,45 +1218,22 @@
                 </div>
 
                 <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
-                    <div class="h-48 bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center">
-                        <i class="fas fa-users text-6xl text-dark-bg"></i>
-                    </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Social Media Dashboard</h3>
-                        <p class="text-gray-400 mb-4">Analytics dashboard for social media management</p>
+                        <div class="w-full h-48 rounded-lg mb-4 overflow-hidden flex items-center justify-center bg-white">
+                            <img src="actia.png" alt="Automated Spirulina Platform" class="w-4/5 h-4/5 object-contain">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Automated Spirulina Platform</h3>
+                        <p class="text-gray-400 mb-4">IoT-integrated automated spirulina cultivation platform with AI-driven monitoring</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-aurora-green/20 text-aurora-green rounded text-xs">Vue.js</span>
-                            <span class="px-2 py-1 bg-aurora-blue/20 text-aurora-blue rounded text-xs">Python</span>
-                            <span class="px-2 py-1 bg-aurora-purple/20 text-aurora-purple rounded text-xs">PostgreSQL</span>
+                            <span class="px-2 py-1 bg-aurora-green/20 text-aurora-green rounded text-xs">Spring Boot</span>
+                            <span class="px-2 py-1 bg-aurora-blue/20 text-aurora-blue rounded text-xs">Angular</span>
+                            <span class="px-2 py-1 bg-aurora-purple/20 text-aurora-purple rounded text-xs">Odoo</span>
                         </div>
                         <div class="flex space-x-4">
-                            <a href="#" class="text-aurora-green hover:text-aurora-blue transition">
+                            <a href="https://spiraw.com" target="_blank" class="text-aurora-green hover:text-aurora-blue transition">
                                 <i class="fas fa-external-link-alt"></i> Live
                             </a>
-                            <a href="#" class="text-aurora-green hover:text-aurora-blue transition">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-dark-card rounded-lg overflow-hidden card-hover group">
-                    <div class="h-48 bg-gradient-to-br from-aurora-purple to-aurora-pink flex items-center justify-center">
-                        <i class="fas fa-gamepad text-6xl text-dark-bg"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Gaming Platform</h3>
-                        <p class="text-gray-400 mb-4">Real-time multiplayer gaming platform</p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-aurora-green/20 text-aurora-green rounded text-xs">Next.js</span>
-                            <span class="px-2 py-1 bg-aurora-blue/20 text-aurora-blue rounded text-xs">Socket.io</span>
-                            <span class="px-2 py-1 bg-aurora-purple/20 text-aurora-purple rounded text-xs">Redis</span>
-                        </div>
-                        <div class="flex space-x-4">
-                            <a href="#" class="text-aurora-green hover:text-aurora-blue transition">
-                                <i class="fas fa-external-link-alt"></i> Live
-                            </a>
-                            <a href="#" class="text-aurora-green hover:text-aurora-blue transition">
+                            <a href="https://github.com/insafSpiraw/spiraw-landing" target="_blank" class="text-aurora-green hover:text-aurora-blue transition">
                                 <i class="fab fa-github"></i> Code
                             </a>
                         </div>
@@ -568,19 +1248,20 @@
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Client Testimonials</h2>
             <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+
                 <div class="bg-dark-card p-6 rounded-lg">
                     <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-aurora-green to-aurora-blue flex items-center justify-center text-xl font-bold text-dark-bg">
-                            JD
+                        <div class="w-12 h-12 rounded-full overflow-hidden">
+                            <img src="hafedh.png" alt="Hafedh Slimani" class="w-full h-full object-cover">
                         </div>
                         <div class="ml-4">
-                            <h4 class="font-semibold">John Doe</h4>
-                            <p class="text-sm text-gray-400">CEO, TechStart</p>
+                            <h4 class="font-semibold">Hafedh Slimani</h4>
+                            <p class="text-sm text-gray-400">CEO, Geiser</p>
                         </div>
                     </div>
                     <p class="text-gray-400 italic">
-                        "Alex delivered an exceptional product that exceeded our expectations. Their technical expertise
-                        and attention to detail made our project a huge success."
+                        "Walid delivered outstanding work that went far beyond what we envisioned. 
+                        His expertise and precision played a key role in making our project a real success."
                     </p>
                     <div class="mt-4 text-aurora-green">
                         <i class="fas fa-star"></i>
@@ -593,17 +1274,17 @@
 
                 <div class="bg-dark-card p-6 rounded-lg">
                     <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-aurora-blue to-aurora-purple flex items-center justify-center text-xl font-bold text-dark-bg">
-                            SM
+                        <div class="w-12 h-12 rounded-full overflow-hidden">
+                            <img src="insaf.png" alt="Insaf Ayari" class="w-full h-full object-cover">
                         </div>
                         <div class="ml-4">
-                            <h4 class="font-semibold">Sarah Miller</h4>
-                            <p class="text-sm text-gray-400">Product Manager, InnovateCo</p>
+                            <h4 class="font-semibold">Insaf Ayari</h4>
+                            <p class="text-sm text-gray-400">Co-Founder and CEO, SPIRAW, Actia</p>
                         </div>
                     </div>
                     <p class="text-gray-400 italic">
-                        "Working with Alex was a fantastic experience. They brought our vision to life with
-                        creativity and technical excellence."
+                        "Collaborating with walid was outstanding. 
+                        He transformed our ideas into a polished product through creativity and top-tier technical expertise."
                     </p>
                     <div class="mt-4 text-aurora-blue">
                         <i class="fas fa-star"></i>
@@ -613,56 +1294,6 @@
                         <i class="fas fa-star"></i>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog" class="py-20">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Latest Blog Posts</h2>
-            <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-                <article class="bg-dark-card rounded-lg overflow-hidden card-hover">
-                    <div class="h-48 bg-gradient-to-br from-aurora-green to-aurora-blue"></div>
-                    <div class="p-6">
-                        <div class="text-sm text-gray-400 mb-2">March 15, 2024</div>
-                        <h3 class="text-xl font-semibold mb-3">The Future of Web Development</h3>
-                        <p class="text-gray-400 mb-4">
-                            Exploring emerging trends and technologies shaping the future of web development...
-                        </p>
-                        <a href="#" class="text-aurora-green hover:text-aurora-blue transition">
-                            Read More →
-                        </a>
-                    </div>
-                </article>
-
-                <article class="bg-dark-card rounded-lg overflow-hidden card-hover">
-                    <div class="h-48 bg-gradient-to-br from-aurora-blue to-aurora-purple"></div>
-                    <div class="p-6">
-                        <div class="text-sm text-gray-400 mb-2">March 10, 2024</div>
-                        <h3 class="text-xl font-semibold mb-3">Building Scalable Applications</h3>
-                        <p class="text-gray-400 mb-4">
-                            Best practices for building applications that scale efficiently with growing demand...
-                        </p>
-                        <a href="#" class="text-aurora-green hover:text-aurora-blue transition">
-                            Read More →
-                        </a>
-                    </div>
-                </article>
-
-                <article class="bg-dark-card rounded-lg overflow-hidden card-hover">
-                    <div class="h-48 bg-gradient-to-br from-aurora-purple to-aurora-pink"></div>
-                    <div class="p-6">
-                        <div class="text-sm text-gray-400 mb-2">March 5, 2024</div>
-                        <h3 class="text-xl font-semibold mb-3">UI/UX Design Principles</h3>
-                        <p class="text-gray-400 mb-4">
-                            Essential design principles for creating user-friendly and aesthetic interfaces...
-                        </p>
-                        <a href="#" class="text-aurora-green hover:text-aurora-blue transition">
-                            Read More →
-                        </a>
-                    </div>
-                </article>
             </div>
         </div>
     </section>
@@ -680,7 +1311,7 @@
                             </div>
                             <div>
                                 <p class="text-gray-400">Email</p>
-                                <p>alex@aurora.dev</p>
+                                <p>walid.barhoumi@esprit.tn</p>
                             </div>
                         </div>
                         <div class="flex items-center space-x-4">
@@ -689,7 +1320,7 @@
                             </div>
                             <div>
                                 <p class="text-gray-400">Phone</p>
-                                <p>+1 (555) 123-4567</p>
+                                <p>+49 0155 11688139</p>
                             </div>
                         </div>
                         <div class="flex items-center space-x-4">
@@ -698,7 +1329,7 @@
                             </div>
                             <div>
                                 <p class="text-gray-400">Location</p>
-                                <p>San Francisco, CA</p>
+                                <p>Marburg, Germany</p>
                             </div>
                         </div>
                     </div>
@@ -718,19 +1349,43 @@
 
     <!-- Footer -->
     <footer class="py-8 border-t border-dark-border">
-        <div class="container mx-auto px-6 text-center">
-            <div class="mb-4">
-                <a href="#" class="text-2xl mx-2 hover:text-aurora-green transition"><i class="fab fa-github"></i></a>
-                <a href="#" class="text-2xl mx-2 hover:text-aurora-blue transition"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="text-2xl mx-2 hover:text-aurora-purple transition"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="text-2xl mx-2 hover:text-aurora-pink transition"><i class="fab fa-instagram"></i></a>
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- About Section -->
+                <div class="text-center md:text-left">
+                    <h3 class="text-xl font-bold mb-3 text-aurora-green">Walid Barhoumi</h3>
+                    <p class="text-gray-400 text-sm">
+                        Aspiring Student passionate about AI, data analytics, and Web & Internet Technologies, dedicated to building intelligent and impactful digital solutions.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="text-center">
+                    <h3 class="text-xl font-bold mb-3 text-aurora-blue">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-aurora-green transition">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-aurora-green transition">About</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-aurora-green transition">Projects</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-aurora-green transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="text-center md:text-right">
+                    <h3 class="text-xl font-bold mb-3 text-aurora-purple">Connect</h3>
+                    <div class="flex justify-center md:justify-end gap-4">
+                        <a href="https://github.com/walidbarhoumi" target="_blank" class="text-2xl hover:text-aurora-green transition"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/walid-barhoumi/" target="_blank" class="text-2xl hover:text-aurora-blue transition"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
             </div>
-            <p class="text-gray-400">
-                © 2024 Alex Aurora. Built with
-                <a href="https://github.com/OSSPhilippines/freefolio" class="text-aurora-green hover:text-aurora-blue transition">
-                    Freefolio
-                </a>
-            </p>
+            
+            <!-- Copyright -->
+            <div class="text-center pt-6 border-t border-dark-border">
+                <p class="text-gray-400 text-sm">
+                    © 2025 Walid Barhoumi - All Rights Reserved
+                </p>
+            </div>
         </div>
     </footer>
 
